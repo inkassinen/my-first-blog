@@ -4,3 +4,6 @@ def home(request):
 
 def about(request):
     return render(request, "about.html")
+
+def socialmedia(request):
+    return render(request, "socialmedia.html")
