@@ -20,6 +20,7 @@ from blog import views
 
 urlpatterns = [
     url(r'^$', views.home, name="home"),
+    url(r'^socialmedia/$', views.socialmedia, name="socialmedia")
     url(r'^about/$', views.about, name="about"),
     url(r'^admin/', admin.site.urls),
 ]
